@@ -1,0 +1,201 @@
+Dataset shape: (174, 16)
+
+First few rows:
+          Title     US Gross  Worldwide Gross  ...  Rotten Tomatoes Rating  IMDB Rating IMDB Votes
+0     12 Rounds   12234694.0       18184083.0  ...                    28.0          5.4     8914.0
+1          2012  166112167.0      766812167.0  ...                    39.0          6.2      396.0
+2           300  210614939.0      456068181.0  ...                    60.0          7.8   235508.0
+3  3:10 to Yuma   53606916.0       69791889.0  ...                    89.0          7.9    98355.0
+4    88 Minutes   16930884.0       32955399.0  ...                     5.0          5.9    31205.0
+
+[5 rows x 16 columns]
+
+============================================================
+DESCRIPTIVE STATISTICS
+============================================================
+
+US GROSS
+  Mean:        93863235.16
+  Median:      54837731.50
+  Variance:    9422774161384246.00
+  Std Dev:     97070974.87
+  Min:         2223293.00
+  Max:         533345358.00
+    i=2:
+      Range: [-100278714.58, 288005184.89]
+      Theoretical minimum: 75.00%
+      Actual proportion: 92.53%
+      # Chebyshev holds: True
+    i=3:
+      Range: [-197349689.44, 385076159.75]
+      Theoretical minimum: 88.89%
+      Actual proportion: 98.28%
+      # Chebyshev holds: True
+    i=4:
+      Range: [-294420664.31, 482147134.62]
+      Theoretical minimum: 93.75%
+      Actual proportion: 99.43%
+      # Chebyshev holds: True
+
+WORLDWIDE GROSS
+  Mean:        207487297.68
+  Median:      118726700.50
+  Variance:    55420111539817096.00
+  Std Dev:     235414764.91
+  Min:         6521829.00
+  Max:         1065659812.00
+    i=2:
+      Range: [-263342232.15, 678316827.51]
+      Theoretical minimum: 75.00%
+      Actual proportion: 93.10%
+      # Chebyshev holds: True
+    i=3:
+      Range: [-498756997.07, 913731592.42]
+      Theoretical minimum: 88.89%
+      Actual proportion: 97.13%
+      # Chebyshev holds: True
+    i=4:
+      Range: [-734171761.98, 1149146357.34]
+      Theoretical minimum: 93.75%
+      Actual proportion: 100.00%
+      # Chebyshev holds: True
+
+US DVD SALES
+  Mean:        53923878.97
+  Median:      28132953.00
+  Variance:    3997040093550034.00
+  Std Dev:     63222148.76
+  Min:         618454.00
+  Max:         320830925.00
+    i=2:
+      Range: [-72520418.54, 180368176.49]
+      Theoretical minimum: 75.00%
+      Actual proportion: 93.68%
+      # Chebyshev holds: True
+    i=3:
+      Range: [-135742567.30, 243590325.24]
+      Theoretical minimum: 88.89%
+      Actual proportion: 97.70%
+      # Chebyshev holds: True
+    i=4:
+      Range: [-198964716.06, 306812474.00]
+      Theoretical minimum: 93.75%
+      Actual proportion: 99.43%
+      # Chebyshev holds: True
+
+PRODUCTION BUDGET
+  Mean:        66802959.77
+  Median:      49000000.00
+  Variance:    3609760373992591.50
+  Std Dev:     60081281.39
+  Min:         15000.00
+  Max:         300000000.00
+    i=2:
+      Range: [-53359603.02, 186965522.56]
+      Theoretical minimum: 75.00%
+      Actual proportion: 94.83%
+      # Chebyshev holds: True
+    i=3:
+      Range: [-113440884.41, 247046803.95]
+      Theoretical minimum: 88.89%
+      Actual proportion: 98.28%
+      # Chebyshev holds: True
+    i=4:
+      Range: [-173522165.81, 307128085.35]
+      Theoretical minimum: 93.75%
+      Actual proportion: 100.00%
+      # Chebyshev holds: True
+
+RUNNING TIME MIN
+  Mean:        114.34
+  Median:      111.00
+  Variance:    404.68
+  Std Dev:     20.12
+  Min:         78.00
+  Max:         187.00
+    i=2:
+      Range: [74.11, 154.58]
+      Theoretical minimum: 75.00%
+      Actual proportion: 95.98%
+      # Chebyshev holds: True
+    i=3:
+      Range: [53.99, 174.69]
+      Theoretical minimum: 88.89%
+      Actual proportion: 99.43%
+      # Chebyshev holds: True
+    i=4:
+      Range: [33.88, 194.81]
+      Theoretical minimum: 93.75%
+      Actual proportion: 100.00%
+      # Chebyshev holds: True
+
+ROTTEN TOMATOES RATING
+  Mean:        55.72
+  Median:      61.00
+  Variance:    782.52
+  Std Dev:     27.97
+  Min:         2.00
+  Max:         98.00
+    i=2:
+      Range: [-0.22, 111.67]
+      Theoretical minimum: 75.00%
+      Actual proportion: 100.00%
+      # Chebyshev holds: True
+    i=3:
+      Range: [-28.20, 139.65]
+      Theoretical minimum: 88.89%
+      Actual proportion: 100.00%
+      # Chebyshev holds: True
+    i=4:
+      Range: [-56.17, 167.62]
+      Theoretical minimum: 93.75%
+      Actual proportion: 100.00%
+      # Chebyshev holds: True
+
+IMDB RATING
+  Mean:        6.79
+  Median:      7.00
+  Variance:    1.20
+  Std Dev:     1.09
+  Min:         1.70
+  Max:         8.90
+    i=2:
+      Range: [4.60, 8.98]
+      Theoretical minimum: 75.00%
+      Actual proportion: 97.70%
+      # Chebyshev holds: True
+    i=3:
+      Range: [3.51, 10.07]
+      Theoretical minimum: 88.89%
+      Actual proportion: 98.85%
+      # Chebyshev holds: True
+    i=4:
+      Range: [2.41, 11.16]
+      Theoretical minimum: 93.75%
+      Actual proportion: 98.85%
+      # Chebyshev holds: True
+
+IMDB VOTES
+  Mean:        62767.55
+  Median:      44370.50
+  Variance:    3650371141.35
+  Std Dev:     60418.30
+  Min:         149.00
+  Max:         465000.00
+    i=2:
+      Range: [-58069.06, 183604.15]
+      Theoretical minimum: 75.00%
+      Actual proportion: 97.13%
+      # Chebyshev holds: True
+    i=3:
+      Range: [-118487.36, 244022.45]
+      Theoretical minimum: 88.89%
+      Actual proportion: 98.85%
+      # Chebyshev holds: True
+    i=4:
+      Range: [-178905.66, 304440.75]
+      Theoretical minimum: 93.75%
+      Actual proportion: 99.43%
+      # Chebyshev holds: True
+
+============================================================
